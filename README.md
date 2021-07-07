@@ -6,9 +6,14 @@ This is to be used to meet the build dependencies of Unreal Engine 4 on Win64. \
 The process is detailed here: https://github.com/UnrealEngineHTML5/Documentation \
 It requires that you have linked your Epic Games Account to your Github Account.
 
+![UE4-HTML5]
+
 ## Additional Dependencies
 Further to the sample emsdk packages provided here, Microsoft.NET v4.6.2 Developer Pack \
 is also required from here: https://dotnet.microsoft.com/download/dotnet-framework/net462
+
+The branch that this has been tested on includes the scrapped HTML5 Platform Extension (4.24.3-html5-1.39.18) \
+which provides a new target platform for running projects directly in a WebGL-compatible browser.
 
 ## Notes
 EMSDK is yet another command-line in-tree package manager built on python and is part of \
