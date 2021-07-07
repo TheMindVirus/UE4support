@@ -28,4 +28,8 @@ Deliberate version checks and behaviours based on software of a specific version
 difficult to maintain further down the development cycle. Sometimes this is the desired behaviour, \
 but it can also be written to work with any version of the tools (e.g. "python" instead of "python3.7.4-64bit")
 
+The build process uses about 25GB committed System Memory, so at least 16GB of RAM and a 16GB pagefile \
+is necessary to avoid compiler heap size limits. The built solution file opens in Microsoft Blend for Visual Studio. \
+I recommend a 64GB pagefile if you can as it lets you build the engine while still performing other tasks.
+
 Hopefully this will help you successfully build Unreal Engine 4 and perhaps improve Unreal Engine 5.
