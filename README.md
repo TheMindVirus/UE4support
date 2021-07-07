@@ -16,8 +16,8 @@ Emscripten - a bridge between Javascript in the browser and C/C++/C# apps (among
 
 A few files in emsdk may also need patching to remove the (potentially harmful) check for python: \
 https://github.com/emscripten-core/emsdk/blob/main/emsdk \
-Wherever you see a file doing deliberate version checking, it may need to be commented out entirely and replaced with \
-a more accurate last line calling emsdk.py or the relevant build script.
+Wherever you see a file doing deliberate version checking, it may need to be commented out entirely \
+and replaced with a more accurate last line calling emsdk.py or the relevant build script.
 
 Deliberate version checks and behaviours based on software of a specific version can be \
 difficult to maintain further down the development cycle. Sometimes this is the desired behaviour, \
