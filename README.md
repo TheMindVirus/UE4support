@@ -6,7 +6,7 @@ This is to be used to meet the build dependencies of Unreal Engine 4 on Win64. \
 The process is detailed here: https://github.com/UnrealEngineHTML5/Documentation \
 It requires that you have linked your Epic Games Account to your Github Account.
 
-![UE4-HTML5]
+![UE4-HTML5](https://github.com/TheMindVirus/UE4support/blob/main/UE4-HTML5.png)
 
 ## Additional Dependencies
 Further to the sample emsdk packages provided here, Microsoft.NET v4.6.2 Developer Pack \
