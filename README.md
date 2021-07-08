@@ -37,6 +37,10 @@ The unbuilt source files total around 66GB and the process tears through storage
 Many errors involving missing environment variables and imports may occur, so be sure to set your `%PATH%`, `%TEMP_DIR%` etc. \
 and also install the emscripten python module in site-packages to avoid seeing `import emscripten - no module named 'emscripten'`.
 
+The HTML5 Project Builder tries as hard as it can to cache the previous build state but often gets it wrong \
+and thinks it's already done something it hasn't (and then locks up indefinitely). \
+To resolve this, please also be sure to clear out any Cache and Temp folders you find (and `Engine\Intermediate`).
+
 Hopefully this will help you successfully build Unreal Engine 4 and perhaps improve Unreal Engine 5.
 
 If you see the following output, please consider restructuring and standardising python-emscripten: \
