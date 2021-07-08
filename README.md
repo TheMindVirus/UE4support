@@ -40,7 +40,7 @@ and also install the emscripten python module in site-packages to avoid seeing `
 Hopefully this will help you successfully build Unreal Engine 4 and perhaps improve Unreal Engine 5.
 
 ## Future Work
-Here is an example architecture for Python Assembly targeted on the Raspberry Pi QPU or any other custom core:
+Here is an example architecture for Python Assembly targeted on the Raspberry Pi QPU or any other custom core: \
 (e.g. Emscripten WebAssembly itself as a virtual machine)
 ```
 |-qpu-python (or <assembly>-python, otherwise known as micropython or circuitpython)
@@ -58,7 +58,7 @@ Here is an example architecture for Python Assembly targeted on the Raspberry Pi
 |-qpu-ssl (bound with secure hooks to python-security) <-- another accelerator
 |-qpu-asm (all the other instructions) <-- other unknown accelerators can be written using this
 ```
-As a requirement, all processors that are Python Assembly capable must have a fully Automatic Loader from storage
+As a requirement, all processors that are Python Assembly capable must have a fully Automatic Loader from storage \
 (not the manual one which is VideoCore User Program Control and Status Queue)
 ```
 0x00430 V3D_SRQPC QPU User Program Request Program Address 32 
