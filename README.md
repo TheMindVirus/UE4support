@@ -26,12 +26,15 @@ and replaced with a more accurate last line calling emsdk.py or the relevant bui
 
 Deliberate version checks and behaviours based on software of a specific version can be \
 difficult to maintain further down the development cycle. Sometimes this is the desired behaviour, \
-but it can also be written to work with any version of the tools (e.g. "python" instead of "python3.7.4-64bit")
+but it can also be written to work with any version of the tools (e.g. "python" instead of "python3.7.4-64bit").
 
 The build process uses about 25GB committed System Memory, so at least 16GB of RAM and a 16GB pagefile \
 is necessary to avoid compiler heap size limits. The built solution file opens in Microsoft Blend for Visual Studio.
 
 I recommend a 64GB pagefile if you can as it lets you build the engine while still performing other tasks. \
 The unbuilt source files total around 66GB and the process tears through storage, so make sure you have 1TB to spare.
+
+Many errors involving missing environment variables and imports may occur, so be sure to set your `%PATH%`, `%TEMP_DIR%` etc. \
+and also install the emscripten python module in site-packages to avoid seeing `import emscripten - no module named 'emscripten'`.
 
 Hopefully this will help you successfully build Unreal Engine 4 and perhaps improve Unreal Engine 5.
