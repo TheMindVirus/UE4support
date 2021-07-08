@@ -30,6 +30,7 @@ but it can also be written to work with any version of the tools (e.g. "python" 
 
 The build process uses about 25GB committed System Memory, so at least 16GB of RAM and a 16GB pagefile \
 is necessary to avoid compiler heap size limits. The built solution file opens in Microsoft Blend for Visual Studio. \
-I recommend a 64GB pagefile if you can as it lets you build the engine while still performing other tasks.
+I recommend a 64GB pagefile if you can as it lets you build the engine while still performing other tasks. \
+The unbuilt source files total around 66GB and the process tears through storage, so make sure you have 1TB to spare.
 
 Hopefully this will help you successfully build Unreal Engine 4 and perhaps improve Unreal Engine 5.
