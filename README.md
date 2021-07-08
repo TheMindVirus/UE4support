@@ -17,7 +17,7 @@ which provides a new target platform for running projects directly in a WebGL-co
 
 ## Notes
 EMSDK is yet another command-line in-tree package manager built on python and is part of \
-Emscripten - a bridge between Javascript in the browser and C/C++/C# apps (amongst other languages)
+Emscripten - a bridge between Javascript in the browser and C/C++/C# apps (interface to WebAssembly .wasm)
 
 A few files in emsdk may also need patching to remove the (potentially harmful) check for python: \
 https://github.com/emscripten-core/emsdk/blob/main/emsdk \
