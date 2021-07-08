@@ -40,7 +40,7 @@ and also install the emscripten python module in site-packages to avoid seeing `
 Hopefully this will help you successfully build Unreal Engine 4 and perhaps improve Unreal Engine 5.
 
 ## Future Work
-Here is an example architecture for Python Assembly targeted on the Raspberry Pi QPU or any other custom core: \
+Here is an example architecture for **Python Assembly** targeted on the Raspberry Pi QPU or any other custom core: \
 (e.g. Emscripten WebAssembly itself as a virtual machine)
 ```
 |-qpu-python (or <assembly>-python, otherwise known as micropython or circuitpython)
